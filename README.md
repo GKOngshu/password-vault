@@ -2,7 +2,7 @@
 
 A secure, completely client-side, local desktop password manager.
 
-<video src="./media/demo.mp4" controls="controls" width="100%"></video>
+![Password Vault Demo](./media/demo.gif)
 
 ---
 
