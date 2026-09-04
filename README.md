@@ -29,7 +29,7 @@ By packaging a modern React web application inside an Electron environment, this
 This application employs industry-standard cryptographic protocols to ensure user data is mathematically secure:
 
 * **Key Derivation:** The master password is never stored. Instead, it is salted and hashed using **Argon2id** (configured with robust time and memory costs) to derive a 256-bit encryption key.
-* **Data Encryption:** All vault data is encrypted using Node's native `crypto` module with **AES-256-GCM**, providing both confidentiality and authenticated integrity checks.
+<!-- * **Data Encryption:** All vault data is encrypted using Node's native `crypto` module with **AES-256-GCM**, providing both confidentiality and authenticated integrity checks. -->
 * **Context Isolation:** Cryptographic operations are handled securely in the Electron main process via strict IPC bridges (using `contextBridge`), keeping Node.js contexts completely isolated from the React renderer.
 
 ---
